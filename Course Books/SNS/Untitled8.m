@@ -1,0 +1,11 @@
+clc;clear;close all;
+a=28;
+b1=a/100;
+b2=-a/100;
+T=a/2;
+t=-T:0.1:T;
+x=a*exp(b1*t);
+y=a*exp(b2*t);
+plot(t,x);
+hold on;
+plot(t,y);
